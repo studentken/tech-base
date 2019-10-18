@@ -4,7 +4,7 @@
 //DBの準備をする
 	//DB接続
 	$dsn = 'mysql:dbname=db_name;host=localhost';//<--半角空白入れるとerror
-	$user = 'tb_name';		//ユーザ名
+	$user = 'name';		//ユーザ名
 	$password = 'password';	//パスワード
 	error_reporting(E_ALL & ~E_NOTICE);	// PHPのエラーを表示するように設定
 	//DBへの接続
