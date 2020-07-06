@@ -14,9 +14,9 @@ class db{
 	//DB接続	
     function __construct(){
         try{
-			$dsn = 'mysql:dbname=tb210060db;host=localhost';//<--半角空白入れるとerror
-			$user = 'tb-210060';		//ユーザ名
-			$password = 'FxNwsbG5LX';	//パスワード
+			$dsn = 'mysql:dbname=*****;host=localhost';//<--半角空白入れるとerror
+			$user = '******';		//ユーザ名
+			$password = '******';	//パスワード
 			error_reporting(E_ALL & ~E_NOTICE);	// PHPのエラーを表示するように設定
 			$this->$pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 			//echo "接続OK";
